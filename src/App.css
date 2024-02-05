@@ -1,0 +1,62 @@
+/* App.css */
+
+.page {
+  max-width: 600px;
+  /* Adjust the maximum width as needed */
+  margin: 0 auto;
+  /* Center the page horizontally */
+}
+
+.container {
+  text-align: center;
+  margin: 20px 20px;
+  max-width:  1000px;
+  font-size: 1.2rem;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.label {
+  margin-right: 10px;
+}
+
+.input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  font-size: 1.4rem;
+}
+
+.button {
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100px;
+  background-color: #4caf50;
+  /* Nice green color */
+  color: white;
+  border: 1px solid #4caf50;
+  font-weight: bold;
+  letter-spacing: ;
+  transition: background-color 0.3s ease;
+  /* Smooth transition on hover */
+}
+
+.button:hover {
+  background-color: #45a049;
+  /* Darker green on hover */
+}
+
+.button:active {
+  background-color: #367c39;
+  /* Even darker green when button is clicked */
+}
